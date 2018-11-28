@@ -1,0 +1,137 @@
+1、框架、entity
+2、接口、实现类DAO
+
+3、复习AJAX技术
+ 
+   register.jsp  注册页面
+
+   CheckUserIdSer   检查用户名是否存在
+
+   AddUserServ      添加用户
+
+   function.js    
+
+   reg-result.jsp   注册成功的提示界面 
+
+4、
+   login.jsp        登录页面
+
+   验证码 （Number.jsp   Number2.jsp   function.js）  
+
+   CheckCodeSer   
+
+   LoginServ        登录Servlet 
+
+   manage/index.jsp  后台首页
+
+5、后台：
+
+   SearchUserById            用户管理--servlet [分页]
+
+   manage/user.jsp           用户管理页面
+
+   manage/chongzhi.jsp       积分充值
+
+   ChongZhi                  积分充值-servlet 
+   
+   TypeManageSer             分类管理--servlet [分页]
+
+   manage/productClass.jsp   分类管理页面 
+
+
+6、
+   manage/productClass-add.jsp     分类管理-新增
+ 
+   manage/productClass-modify.jsp  分类管理-修改
+
+   SelectProductBackSer          商品管理--servlet [分页]
+
+   manage/product.jsp            商品管理页面  
+
+   manage/product-add.jsp        商品管理-新增
+
+   AddProductSer                 商品管理-新增--servlet
+
+   manage/product-modify.jsp     商品管理-修改
+
+   UpdateProductSer              商品管理-修改--servlet
+
+7、
+   OrderManagerSer               订单管理--servlet [分页]
+
+   manage/order.jsp              订单管理页面
+
+   OrderDetailManagerSer         订单详情管理--servlet [分页]
+
+   manage/orderdetail.jsp        订单详情页面
+
+
+   SelectCommentServ             留言管理--servlet [分页]
+
+   manage/guestbook.jsp          留言管理【后台】页面
+
+   UpdateComment                 回复留言--servlet
+
+   manage/guestbook-modify.jsp   回复留言【后台】页面
+
+   DeleteComment                 删除留言--servlet
+
+
+   SelectNewsServ                新闻管理--servlet [分页]
+
+   manage/news.jsp               新闻管理【后台】页面
+
+   manage/news-add.jsp           新闻管理--新增
+
+8、前台界面
+
+   SelectAllProductSer           首页--servlet
+
+   index                         首页
+
+   PrintProductSer               分类展示--servlet
+
+   product-list.jsp              分类展示页面
+
+   product-view.jsp              商品详细页面
+
+9、
+
+   AddShoppingSer                添加购物车--servlet
+
+   ShowShopGoods                 购物车界面--servlet
+
+   shopping.jsp                  购物车界面
+
+   DeleteShopGoods               删除购物车里面的商品--servlet
+
+   function.js                   购物车界面的JS
+
+   CartSer                       结算
+
+   shopping-result.jsp           购物车结算成功页面
+   
+      
+10、
+   
+   SelectCommentServ             留言管理--servlet
+
+   guestbook.jsp                 留言管理页面
+
+   AddCommentServ                添加留言
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

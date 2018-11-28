@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUserServ</servlet-name>
+    <servlet-class>servlet.AddUserServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServ</servlet-name>
+    <servlet-class>servlet.LoginServ</servlet-class>
+  </servlet>
+ 
+  <servlet>
+    <servlet-name>OrderManagerSer</servlet-name>
+    <servlet-class>servlet.OrderManagerSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCommentServ</servlet-name>
+    <servlet-class>servlet.AddCommentServ</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectCommentServ</servlet-name>
+    <servlet-class>servlet.SelectCommentServ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrintProductSer</servlet-name>
+    <servlet-class>servlet.PrintProductSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchUserById</servlet-name>
+    <servlet-class>servlet.SearchUserById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateAndDelUserServ</servlet-name>
+    <servlet-class>servlet.UpdateAndDelUserServ</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateComment</servlet-name>
+    <servlet-class>servlet.UpdateComment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteComment</servlet-name>
+    <servlet-class>servlet.DeleteComment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectNewsServ</servlet-name>
+    <servlet-class>servlet.SelectNewsServ</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddTypeSer</servlet-name>
+    <servlet-class>servlet.AddTypeSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteProductSer</servlet-name>
+    <servlet-class>servlet.DeleteProductSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteTypeSer</servlet-name>
+    <servlet-class>servlet.DeleteTypeSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TypeManageSer</servlet-name>
+    <servlet-class>servlet.TypeManageSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateTypeSer</servlet-name>
+    <servlet-class>servlet.UpdateTypeSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddProductSer</servlet-name>
+    <servlet-class>servlet.AddProductSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateUserServ</servlet-name>
+    <servlet-class>servlet.UpdateUserServ</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveUserServ</servlet-name>
+    <servlet-class>servlet.RemoveUserServ</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateNews</servlet-name>
+    <servlet-class>servlet.UpdateNews</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddNews</servlet-name>
+    <servlet-class>servlet.AddNews</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteNews</servlet-name>
+    <servlet-class>servlet.DeleteNews</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateProductSer</servlet-name>
+    <servlet-class>servlet.UpdateProductSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectProductBackSer</servlet-name>
+    <servlet-class>servlet.SelectProductBackSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddShoppingSer</servlet-name>
+    <servlet-class>servlet.AddShoppingSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderDetailManagerSer</servlet-name>
+    <servlet-class>servlet.OrderDetailManagerSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowShopGoods</servlet-name>
+    <servlet-class>servlet.ShowShopGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteShopGoods</servlet-name>
+    <servlet-class>servlet.DeleteShopGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CartSer</servlet-name>
+    <servlet-class>servlet.CartSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChongZhi</servlet-name>
+    <servlet-class>servlet.ChongZhi</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClearShoppingSer</servlet-name>
+    <servlet-class>servlet.ClearShoppingSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectAllProductSer</servlet-name>
+    <servlet-class>servlet.SelectAllProductSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckUserIdSer</servlet-name>
+    <servlet-class>servlet.CheckUserIdSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckCodeSer</servlet-name>
+    <servlet-class>servlet.CheckCodeSer</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddUserServ</servlet-name>
+    <url-pattern>/AddUserServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServ</servlet-name>
+    <url-pattern>/LoginServ</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>OrderManagerSer</servlet-name>
+    <url-pattern>/OrderManagerSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCommentServ</servlet-name>
+    <url-pattern>/AddCommentServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectCommentServ</servlet-name>
+    <url-pattern>/SelectCommentServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrintProductSer</servlet-name>
+    <url-pattern>/PrintProductSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchUserById</servlet-name>
+    <url-pattern>/SearchUserById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAndDelUserServ</servlet-name>
+    <url-pattern>/UpdateAndDelUserServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateComment</servlet-name>
+    <url-pattern>/UpdateComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteComment</servlet-name>
+    <url-pattern>/DeleteComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectNewsServ</servlet-name>
+    <url-pattern>/SelectNewsServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTypeSer</servlet-name>
+    <url-pattern>/AddTypeSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteProductSer</servlet-name>
+    <url-pattern>/DeleteProductSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTypeSer</servlet-name>
+    <url-pattern>/DeleteTypeSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TypeManageSer</servlet-name>
+    <url-pattern>/TypeManageSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTypeSer</servlet-name>
+    <url-pattern>/UpdateTypeSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProductSer</servlet-name>
+    <url-pattern>/AddProductSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserServ</servlet-name>
+    <url-pattern>/UpdateUserServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveUserServ</servlet-name>
+    <url-pattern>/RemoveUserServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateNews</servlet-name>
+    <url-pattern>/UpdateNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNews</servlet-name>
+    <url-pattern>/AddNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNews</servlet-name>
+    <url-pattern>/DeleteNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateProductSer</servlet-name>
+    <url-pattern>/UpdateProductSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectProductBackSer</servlet-name>
+    <url-pattern>/SelectProductBackSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddShoppingSer</servlet-name>
+    <url-pattern>/AddShoppingSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDetailManagerSer</servlet-name>
+    <url-pattern>/OrderDetailManagerSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowShopGoods</servlet-name>
+    <url-pattern>/ShowShopGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteShopGoods</servlet-name>
+    <url-pattern>/DeleteShopGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartSer</servlet-name>
+    <url-pattern>/CartSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChongZhi</servlet-name>
+    <url-pattern>/ChongZhi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClearShoppingSer</servlet-name>
+    <url-pattern>/ClearShoppingSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectAllProductSer</servlet-name>
+    <url-pattern>/SelectAllProductSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUserIdSer</servlet-name>
+    <url-pattern>/CheckUserIdSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckCodeSer</servlet-name>
+    <url-pattern>/CheckCodeSer</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>SelectAllProductSer</welcome-file>
+  </welcome-file-list>
+</web-app>
